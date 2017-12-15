@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { InformacionService } from "../../services/informacion.service";
 
 @Component({
   selector: 'app-a-cerca-de',
@@ -7,6 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ACercaDeComponent{
 
-  constructor() { }
+  constructor(public _is:InformacionService) { }
 
 }

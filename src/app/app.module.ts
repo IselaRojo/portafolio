@@ -8,6 +8,7 @@ import { app_routing } from "./app.routes";
 
 //servicios
 import {  InformacionService } from "./services/informacion.service";
+import {  ProductosService } from "./services/productos.service";
 
 //componentes
 import { AppComponent } from './app.component';
@@ -25,7 +26,7 @@ import { DocumentosComponent } from './components/documentos/documentos.componen
     FooterComponent,
     InicioComponent,
     ACercaDeComponent,
-    DocumentosComponent,
+    DocumentosComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +34,8 @@ import { DocumentosComponent } from './components/documentos/documentos.componen
     app_routing
   ],
   providers: [
-    InformacionService
+    InformacionService,
+    ProductosService
   ],
 
   bootstrap: [AppComponent]
