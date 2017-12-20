@@ -9,6 +9,7 @@ import { ProductosService } from '../../services/productos.service';
 export class InicioComponent {
 
   constructor( private _ps:ProductosService) {
+
   }
 
 }

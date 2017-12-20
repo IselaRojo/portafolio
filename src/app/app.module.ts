@@ -17,6 +17,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { ACercaDeComponent } from './components/a-cerca-de/a-cerca-de.component';
 import { DocumentosComponent } from './components/documentos/documentos.component';
+import { BuscarComponent } from './components/buscar/buscar.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { DocumentosComponent } from './components/documentos/documentos.componen
     FooterComponent,
     InicioComponent,
     ACercaDeComponent,
-    DocumentosComponent
+    DocumentosComponent,
+    BuscarComponent
   ],
   imports: [
     BrowserModule,
